@@ -1,0 +1,16 @@
+{
+  "name": "my_menu_server",
+  "version": "1.0.0",
+  "description": "server for food menu app",
+  "main": "index.js",
+    "scripts": {
+    "start-dev": "node lib/server-development",
+    "start": "node lib/server-production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^5.8.3"
+  }
+}
